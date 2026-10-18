@@ -67,8 +67,7 @@ def recherche_taboue(iterations=100, taille_tabou=7, seed=42):
         for y, mouvement in voisins(courant):
             cle = tuple(tuple(ligne) for ligne in y)
             est_tabou = mouvement in liste_taboue
-            # Critère d'aspiration : autoriser un mouvement tabou s'il
-            # améliore le meilleur coût global connu.
+         
             if not est_tabou or cout_solution(y) < cout_solution(meilleur):
                 candidats.append((cout_solution(y), y, mouvement, cle))
         if not candidats:
@@ -96,5 +95,5 @@ def afficher(x):
 
 if __name__ == "__main__":
     solution = recherche_taboue()
-    assert est_faisable(solution), "La solution doit respecter les contraintes."
+    assert est_faisable(solution), 
     afficher(solution)
