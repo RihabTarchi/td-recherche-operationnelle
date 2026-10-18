@@ -37,9 +37,9 @@ taboue pour éviter de répéter certaines opérations. Le programme vérifie
   faible.
 - `afficher(x)` : affiche le plan obtenu et son coût.
 
-### Résultat d'exécution exercice 2
+### Résultat d'exécution
 
-![Résultat de l'exercice 2](captures/resultat_EX2.png)
+![Résultat de l'exercice 2](resultat_EX2.png)
 
 ## Exercice 3 --- Problème du voyageur de commerce
 
@@ -83,6 +83,6 @@ température. La température diminue à chaque itération.
   par défaut.
 - `afficher(nom, tour)` : affiche le circuit et son coût.
 
-### Résultat d'exécution exercice 3
+### Résultat d'exécution
 
-![Résultat de l'exercice 3](captures/resultat_EX3.png)
+![Résultat de l'exercice 3](resultat_EX3.png)
