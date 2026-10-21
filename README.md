@@ -1,4 +1,4 @@
-# TD --- Recherche opérationnelle
+# TD 2 --- Algorithmes évolutionnaires
 
 Ce dépôt contient les corrections Python des exercices 2 et 3 du TD de recherche opérationnelle.
 
